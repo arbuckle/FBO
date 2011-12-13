@@ -28,6 +28,7 @@ Usage info:
 Dependencies:
 - BeautifulSoup(to parse data from web)
 - pyWin32 (for clipboard)
+- tKinter
 
 
 This software is BSD Licensed:
