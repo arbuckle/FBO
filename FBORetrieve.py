@@ -8,6 +8,11 @@ import cookielib
 
 Cookie = None 
 
+"""
+/!\ WARNING /!\
+This Software Was Written By A Noob.  
+
+"""
 
 class Workers:
 
@@ -18,12 +23,12 @@ class Workers:
         f . write ('%s\n' % url)
         f.close()
 
-    def BuildRequest ( self , url ):    #(url, values)
+    def BuildRequest ( self , url ):  
         userAgent = 'FBORET'
         try:
-            url = urllib . unquote ( url + '&tab=ivl')
+            url = urllib . unquote ( url + '&tab=ivl') #so users don't have to navigate to the interested vendors list
             values = {}
-            data = urllib . urlencode (values) # for inhouse querying
+            data = urllib . urlencode (values)
 
             print 'BuildRequest | request built: ' , url
             self . logit(url)## logging URL
