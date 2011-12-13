@@ -1,0 +1,55 @@
+Overview:
+FBORetrieve scrapes data from the "interested vendors list" on FBO.gov.
+
+This functionality can be used to generate cold-calling leads targeting 
+specific industries, as a lot of the vendors on the site are small firms 
+who are not accustomed to being targeted by sales teams.  
+
+
+History:
+This software was written for a personal friend who was manually parsing
+data from the web in order to generate leads for a sales job.  She is no
+longer affiliated with that company, which was not interested in licensing
+the software, hence the open-source release.
+
+
+Usage info:
+- Tested for windows compatibility only.
+- Accepts input in the form of an opportunity link from FBO.gov search results
+- When the 'Auto' button is clicked, data is copied directly to the clipboard 
+  in a format that's good for pasting into Excel.
+- A log file is generated so that users can go back and revisit old 
+  opportunities, as new vendors add their information regularly.
+
+
+Dependencies:
+- BeautifulSoup(to parse data from web)
+- pyWin32 (for clipboard)
+
+
+This software is BSD Licensed:
+
+Copyright (c) 2011, David Arbuckle
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * The name of the copyright holder may not be used to endorse or promote 
+      products derived from this software without specific prior written 
+      permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL DAVID ARBUCKLE BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
