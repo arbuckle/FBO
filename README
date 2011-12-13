@@ -1,5 +1,8 @@
 Overview:
-FBORetrieve scrapes data from the "interested vendors list" on FBO.gov.
+FBORetrieve is a GUI frontend for a single-purpose web scraper.
+
+The purpose of the app is to scrape vendor contact information from the 
+"interested vendors list" on FBO.gov.
 
 This functionality can be used to generate cold-calling leads targeting 
 specific industries, as a lot of the vendors on the site are small firms 
